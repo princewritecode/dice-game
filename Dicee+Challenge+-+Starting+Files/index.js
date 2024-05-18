@@ -28,3 +28,10 @@ function init()
     parent.append(createImageElement1);
     parent.append(text);
 }
+
+const button = document.getElementById('reload');
+button.addEventListener('click', (e) =>
+{
+    e.preventDefault();
+    window.location.reload();
+});

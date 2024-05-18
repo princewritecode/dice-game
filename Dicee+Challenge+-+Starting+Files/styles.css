@@ -40,3 +40,14 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #232931;
+  color: white;
+}
